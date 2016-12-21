@@ -1,0 +1,27 @@
+﻿  read socket.cpp
+g:\code\opc_da_clientsdk_0.4a 20161221\projectsinautomation\opc_da_clientsdk_0.4\opcclientdemo\read socket.h(2): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+  OPCClientdemo.cpp
+g:\code\opc_da_clientsdk_0.4a 20161221\projectsinautomation\opc_da_clientsdk_0.4\opcclientdemo\read socket.h(2): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+g:\code\opc_da_clientsdk_0.4a 20161221\projectsinautomation\opc_da_clientsdk_0.4\opcclientdemo\opcclientdemo.cpp(65): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“const ATL::CString”
+g:\code\opc_da_clientsdk_0.4a 20161221\projectsinautomation\opc_da_clientsdk_0.4\opcclientdemo\opcclientdemo.cpp(69): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“const ATL::CString”
+g:\code\opc_da_clientsdk_0.4a 20161221\projectsinautomation\opc_da_clientsdk_0.4\opcclientdemo\opcclientdemo.cpp(88): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“ATL::CString”
+g:\code\opc_da_clientsdk_0.4a 20161221\projectsinautomation\opc_da_clientsdk_0.4\opcclientdemo\opcclientdemo.cpp(316): warning C4800: “VARIANT_BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+g:\code\opc_da_clientsdk_0.4a 20161221\projectsinautomation\opc_da_clientsdk_0.4\opcclientdemo\opcclientdemo.cpp(343): warning C4244: “=”: 从“DOUBLE”转换到“float”，可能丢失数据
+g:\code\opc_da_clientsdk_0.4a 20161221\projectsinautomation\opc_da_clientsdk_0.4\opcclientdemo\opcclientdemo.cpp(359): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+g:\code\opc_da_clientsdk_0.4a 20161221\projectsinautomation\opc_da_clientsdk_0.4\opcclientdemo\opcclientdemo.cpp(363): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+g:\code\opc_da_clientsdk_0.4a 20161221\projectsinautomation\opc_da_clientsdk_0.4\opcclientdemo\opcclientdemo.cpp(399): warning C4800: “VARIANT_BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+g:\code\opc_da_clientsdk_0.4a 20161221\projectsinautomation\opc_da_clientsdk_0.4\opcclientdemo\opcclientdemo.cpp(403): warning C4800: “VARIANT_BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+g:\code\opc_da_clientsdk_0.4a 20161221\projectsinautomation\opc_da_clientsdk_0.4\opcclientdemo\opcclientdemo.cpp(432): warning C4244: “=”: 从“double”转换到“INT”，可能丢失数据
+g:\code\opc_da_clientsdk_0.4a 20161221\projectsinautomation\opc_da_clientsdk_0.4\opcclientdemo\opcclientdemo.cpp(442): warning C4800: “VARIANT_BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+g:\code\opc_da_clientsdk_0.4a 20161221\projectsinautomation\opc_da_clientsdk_0.4\opcclientdemo\opcclientdemo.cpp(446): warning C4800: “VARIANT_BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+g:\code\opc_da_clientsdk_0.4a 20161221\projectsinautomation\opc_da_clientsdk_0.4\opcclientdemo\opcclientdemo.cpp(472): warning C4800: “VARIANT_BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+g:\code\opc_da_clientsdk_0.4a 20161221\projectsinautomation\opc_da_clientsdk_0.4\opcclientdemo\opcclientdemo.cpp(126): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“ATL::CString”
+g:\code\opc_da_clientsdk_0.4a 20161221\projectsinautomation\opc_da_clientsdk_0.4\opcclientdemo\opcclientdemo.cpp(143): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“ATL::CString”
+g:\code\opc_da_clientsdk_0.4a 20161221\projectsinautomation\opc_da_clientsdk_0.4\opcclientdemo\opcclientdemo.cpp(339): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“const ATL::CString”
+  正在生成代码...
+g:\code\opc_da_clientsdk_0.4a 20161221\projectsinautomation\opc_da_clientsdk_0.4\opcclientdemo\read socket.cpp(28): warning C4715: “getcommand”: 不是所有的控件路径都返回值
+g:\code\opc_da_clientsdk_0.4a 20161221\projectsinautomation\opc_da_clientsdk_0.4\opcclientdemo\read socket.cpp(44): warning C4715: “command_connect”: 不是所有的控件路径都返回值
+g:\code\opc_da_clientsdk_0.4a 20161221\projectsinautomation\opc_da_clientsdk_0.4\opcclientdemo\read socket.cpp(65): warning C4715: “command_read”: 不是所有的控件路径都返回值
+g:\code\opc_da_clientsdk_0.4a 20161221\projectsinautomation\opc_da_clientsdk_0.4\opcclientdemo\read socket.cpp(126): warning C4715: “command_move”: 不是所有的控件路径都返回值
+  OPCClientDemo.vcxproj -> G:\code\OPC_DA_ClientSDK_0.4a 20161221\ProjectsInAutomation\OPC_DA_ClientSDK_0.4\OPCClientDemo\Debug\OPCClientDemo.exe
+  OPCClientDemo.vcxproj -> Debug\OPCClientDemo.pdb (Full PDB)

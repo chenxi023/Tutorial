@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D8297ACF-C66B-4EC2-8837-C5A4308A63D6}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>14.0.25431.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>Debug\</OutDir>
+    <IntDir>Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>Release\</OutDir>
+    <IntDir>Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>G:\code\socket\socket20161213b\socket server\ConsoleApplication1;G:\code\JSON\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\include;..\OPCClientToolKit\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <SDLCheck>false</SDLCheck>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>OPCClientToolKit.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)OPCClientDemo.exe</OutputFile>
+      <AdditionalLibraryDirectories>..\OPCClientToolKit\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)OPCClientDemo.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\OPCClientToolKit\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>OPCClientToolKit.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)OPCClientDemo.exe</OutputFile>
+      <AdditionalLibraryDirectories>..\OPCClientToolKit\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\JSON\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_reader.cpp" />
+    <ClCompile Include="..\..\..\..\JSON\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_value.cpp" />
+    <ClCompile Include="..\..\..\..\JSON\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_writer.cpp" />
+    <ClCompile Include="..\..\..\..\socket\socket20161213b\socket server\ConsoleApplication1\MASSAGE.cpp" />
+    <ClCompile Include="OPCClientdemo.cpp" />
+    <ClCompile Include="read socket.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="timestamp_to_standard.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\JSON\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\include\json\autolink.h" />
+    <ClInclude Include="..\..\..\..\JSON\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\include\json\config.h" />
+    <ClInclude Include="..\..\..\..\JSON\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\include\json\features.h" />
+    <ClInclude Include="..\..\..\..\JSON\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\include\json\forwards.h" />
+    <ClInclude Include="..\..\..\..\JSON\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\include\json\json.h" />
+    <ClInclude Include="..\..\..\..\JSON\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\include\json\reader.h" />
+    <ClInclude Include="..\..\..\..\JSON\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\include\json\value.h" />
+    <ClInclude Include="..\..\..\..\JSON\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\include\json\writer.h" />
+    <ClInclude Include="..\..\..\..\JSON\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_batchallocator.h" />
+    <ClInclude Include="..\..\..\..\socket\socket20161213b\socket server\ConsoleApplication1\massage.h" />
+    <ClInclude Include="read socket.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="timestamp_to_standard.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OPCClientToolKit\OPCClientToolKit.vcxproj">
+      <Project>{169e1b60-878b-4237-95ff-065dd5f36180}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\JSON\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_internalarray.inl" />
+    <None Include="..\..\..\..\JSON\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_internalmap.inl" />
+    <None Include="..\..\..\..\JSON\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\json_valueiterator.inl" />
+    <None Include="..\..\..\..\JSON\jsoncpp-src-0.5.0\jsoncpp-src-0.5.0\src\lib_json\sconscript" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,15 @@
+﻿  Transaction.cpp
+  stdafx.cpp
+  OPCServer.cpp
+  OPCProperties.cpp
+  OPCItemData.cpp
+  OPCItem.cpp
+  OPCHost.cpp
+  OPCGroup.cpp
+  OPCClient.cpp
+  正在生成代码...
+  OpcEnum_i.c
+  opcda_i.c
+  opccomn_i.c
+  正在生成代码...
+  OPCClientToolKit.vcxproj -> G:\code\OPC_DA_ClientSDK_0.4a 20161221\ProjectsInAutomation\OPC_DA_ClientSDK_0.4\OPCClientToolKit\Debug\OPCClientToolKit.lib

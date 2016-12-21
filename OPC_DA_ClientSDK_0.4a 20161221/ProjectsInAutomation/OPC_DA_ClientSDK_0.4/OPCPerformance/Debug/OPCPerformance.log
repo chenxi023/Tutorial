@@ -1,0 +1,8 @@
+﻿  stdafx.cpp
+  OPCPerformance.cpp
+g:\code\opc_da_clientsdk_0.4a 20161221\projectsinautomation\opc_da_clientsdk_0.4\opcperformance\opcperformance.cpp(65): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“const ATL::CString”
+g:\code\opc_da_clientsdk_0.4a 20161221\projectsinautomation\opc_da_clientsdk_0.4\opcperformance\opcperformance.cpp(69): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“const ATL::CString”
+g:\code\opc_da_clientsdk_0.4a 20161221\projectsinautomation\opc_da_clientsdk_0.4\opcperformance\opcperformance.cpp(145): warning C4244: “初始化”: 从“time_t”转换到“unsigned long”，可能丢失数据
+OPCPerformance.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+  OPCPerformance.vcxproj -> G:\code\OPC_DA_ClientSDK_0.4a 20161221\ProjectsInAutomation\OPC_DA_ClientSDK_0.4\OPCPerformance\Debug\OPCPerformance.exe
+  OPCPerformance.vcxproj -> Debug\OPCPerformance.pdb (Full PDB)

@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OPCClientToolKit", "OPCClientToolKit\OPCClientToolKit.vcxproj", "{169E1B60-878B-4237-95FF-065DD5F36180}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OPCPerformance", "OPCPerformance\OPCPerformance.vcxproj", "{18DC0413-2248-469E-8E2B-1628A59A0DF8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OPCClientDemo", "OPCClientDemo\OPCClientDemo.vcxproj", "{D8297ACF-C66B-4EC2-8837-C5A4308A63D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{169E1B60-878B-4237-95FF-065DD5F36180}.Debug|x86.ActiveCfg = Debug|Win32
+		{169E1B60-878B-4237-95FF-065DD5F36180}.Debug|x86.Build.0 = Debug|Win32
+		{169E1B60-878B-4237-95FF-065DD5F36180}.Release|x86.ActiveCfg = Release|Win32
+		{169E1B60-878B-4237-95FF-065DD5F36180}.Release|x86.Build.0 = Release|Win32
+		{18DC0413-2248-469E-8E2B-1628A59A0DF8}.Debug|x86.ActiveCfg = Debug|Win32
+		{18DC0413-2248-469E-8E2B-1628A59A0DF8}.Debug|x86.Build.0 = Debug|Win32
+		{18DC0413-2248-469E-8E2B-1628A59A0DF8}.Release|x86.ActiveCfg = Release|Win32
+		{18DC0413-2248-469E-8E2B-1628A59A0DF8}.Release|x86.Build.0 = Release|Win32
+		{D8297ACF-C66B-4EC2-8837-C5A4308A63D6}.Debug|x86.ActiveCfg = Debug|Win32
+		{D8297ACF-C66B-4EC2-8837-C5A4308A63D6}.Debug|x86.Build.0 = Debug|Win32
+		{D8297ACF-C66B-4EC2-8837-C5A4308A63D6}.Release|x86.ActiveCfg = Release|Win32
+		{D8297ACF-C66B-4EC2-8837-C5A4308A63D6}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
